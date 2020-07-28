@@ -15,8 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="230dp"
             android:padding="5dp"
-            app:srcCompat="@drawable/img1"
-            android:contentDescription="TODO" />
+            android:contentDescription="image" />
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +25,6 @@
                 android:id="@+id/textTitre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Caroline Receveur vient d’ouvrir un nouveau chapitre de sa vie. Samedi 11 juillet, l’influenceuse de 32 ans a créé la surprise en révélant avoir épousé son chéri Hugo Philip."
                 android:ellipsize="end"
                 android:maxLines = "1"
                 android:textSize="22dp"
@@ -42,12 +40,9 @@
                 android:id="@+id/textDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Une dizaine de jours plus tard, Caroline Receveur, Hugo Philip et Marlon se sont enfin
-                installés aux Émirats arabes unis. Un déménagement que la créatrice de mode a annoncé sur son compte
-                Instagram en partagent deux photos d’elle et"
                 android:ellipsize="end"
                 android:maxLines = "2"
-            android:textColor="#a9a9a9"
+                android:textColor="#a9a9a9"
             />
         </LinearLayout>
     </LinearLayout>
